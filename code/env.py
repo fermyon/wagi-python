@@ -27,7 +27,5 @@ print()
 for f in os.listdir('/code'):
     print(f)
 
-print(sys.prefix)
-
 import logging
 logging.warn('Logging important warnings')
