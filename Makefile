@@ -7,7 +7,7 @@ serve:
 
 .PHONY: run-wasmtime
 run-wasmtime:
-	wasmtime ruby.wasm --mapdir /::./ -- lib/env.rb
+	wasmtime run opt/wasi-python/bin/python3.wasm --mapdir /::./ --env 'PYTHONHOME=/opt/wasi-python/lib/python3.11' --env 'PYTHONPATH=/opt/wasi-python/lib/python3.11' -- code/env.py
 
 .PHONY: tail-logs
 tail-logs:
