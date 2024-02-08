@@ -1,5 +1,8 @@
 # Wagi-Python
 
+**This repository has been archived. Running Python applications with Spin can be done by following [the spin-python-sdk project](https://github.com/fermyon/spin-python-sdk).**
+
+
 Demo of executing a python script in Wagi
 
 ## Running the demo
